@@ -1,0 +1,16 @@
+flowchart TB
+  U[Analyst / UI] --> FE[Streamlit dashboard]
+  U2[Service client] --> API[FastAPI /ask]
+  FE --> ORCH[Bounded agent orchestrator]
+  API --> ORCH
+  ORCH --> G{Policy / analytics intent router}
+  G --> RAG[Policy retrieval tool]
+  G --> MET[Energy metrics tool]
+  G --> SIM[Scenario tool]
+  G --> MKT[Market snapshot tool]
+  RAG --> IDX[TF-IDF index + source metadata]
+  IDX --> DOCS[(Energy policy briefs)]
+  ORCH --> AUD[(SQLite audit ledger)]
+  AUD --> DASH[Run, latency, tool-order and cost dashboard]
+  PIPE[Prefect ingestion flow] --> IDX
+  PIPE --> DQ[Corpus validation + checksums]

@@ -1,0 +1,82 @@
+{
+  "name": "Energy Policy AgentOps Platform",
+  "version": "1.0.0",
+  "policy_documents": [
+    {
+      "file": "eu_renewable_energy_directive.md",
+      "publisher": "European Commission",
+      "source": "https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules_en",
+      "topic": "renewables"
+    },
+    {
+      "file": "eu_energy_efficiency_directive.md",
+      "publisher": "European Commission",
+      "source": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive_en",
+      "topic": "efficiency"
+    },
+    {
+      "file": "eu_emissions_trading_system.md",
+      "publisher": "European Commission",
+      "source": "https://climate.ec.europa.eu/eu-action/carbon-markets/eu-emissions-trading-system-eu-ets_en",
+      "topic": "carbon_pricing"
+    },
+    {
+      "file": "eu_electricity_market_design.md",
+      "publisher": "European Commission",
+      "source": "https://energy.ec.europa.eu/topics/markets-and-consumers/electricity-market-design_en",
+      "topic": "electricity_markets"
+    },
+    {
+      "file": "eu_batteries_regulation.md",
+      "publisher": "European Commission",
+      "source": "https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en",
+      "topic": "storage"
+    },
+    {
+      "file": "eu_taxonomy_climate.md",
+      "publisher": "European Commission",
+      "source": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+      "topic": "sustainable_finance"
+    },
+    {
+      "file": "iea_world_energy_outlook.md",
+      "publisher": "International Energy Agency",
+      "source": "https://www.iea.org/reports/world-energy-outlook-2024",
+      "topic": "scenarios"
+    },
+    {
+      "file": "eu_cbam.md",
+      "publisher": "European Commission",
+      "source": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+      "topic": "trade_and_carbon"
+    },
+    {
+      "file": "eu_grid_action_plan.md",
+      "publisher": "European Commission",
+      "source": "https://energy.ec.europa.eu/topics/infrastructure/european-grids_en",
+      "topic": "grids"
+    },
+    {
+      "file": "eu_just_transition.md",
+      "publisher": "European Commission",
+      "source": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/finance-and-green-deal/just-transition-mechanism_en",
+      "topic": "just_transition"
+    }
+  ],
+  "sample_data": {
+    "energy_assets.csv": 250,
+    "market_prices.csv": 1825,
+    "policy_questions.jsonl": 5
+  },
+  "features": [
+    "RAG",
+    "tool orchestration",
+    "tool-order trace",
+    "cost accounting",
+    "FastAPI",
+    "Streamlit dashboard",
+    "optional Prefect pipeline",
+    "CI",
+    "tests"
+  ]
+}

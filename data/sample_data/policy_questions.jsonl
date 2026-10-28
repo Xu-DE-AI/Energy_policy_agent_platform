@@ -1,0 +1,5 @@
+{"question": "What should an analyst verify before claiming a renewable project complies with EU rules?", "expected_topics": ["renewables", "implementation", "effective date", "national transposition"]}
+{"question": "Explain why IEA scenarios should not be described as predictions.", "expected_topics": ["scenarios", "assumptions", "publication vintage"]}
+{"question": "What factors should be checked when assessing a battery storage investment under EU policy?", "expected_topics": ["storage", "battery", "market placement", "grid"]}
+{"question": "How can carbon pricing affect an energy asset assessment?", "expected_topics": ["EU ETS", "carbon price", "covered sectors", "scenario"]}
+{"question": "What is the difference between taxonomy eligibility and alignment?", "expected_topics": ["taxonomy", "eligibility", "alignment", "technical screening criteria"]}
